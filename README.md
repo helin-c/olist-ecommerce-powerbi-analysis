@@ -25,15 +25,21 @@ Using the Brazilian eCommerce public dataset of orders (from 2016 to 2018), this
 
 ![Delivery Performance Dashboard](https://github.com/helin-c/olist-ecommerce-powerbi-analysis/blob/main/delivery%20performance.png?raw=true)
 
-### 3. Customer Sentiment Analysis
-**Objective:** Evaluate customer satisfaction and identify pain points.
-* **Insight:** The overall **Average Review Score is 4.09 out of 5**. By categorizing the review comments, the sentiment analysis reveals the ratio of Positive, Neutral, and Negative feedback. Monitoring these scores by product category allows Olist to identify underperforming sellers or products that negatively impact the customer experience.
+### 3. Customer Satisfaction
+**Objective:** Evaluate overall customer satisfaction metrics. 
+* **Insight:** The overall **Average Review Score is 4.09 out of 5**. Monitoring these numerical scores by product category allows Olist to quickly identify underperforming sellers or products that negatively impact the baseline customer experience. 
 
-![Customer Sentiment Dashboard](https://github.com/helin-c/olist-ecommerce-powerbi-analysis/blob/main/customer%20satisfaction%20&%20root%20cause.png?raw=true)
+![Customer Satisfaction Dashboard](https://github.com/helin-c/olist-ecommerce-powerbi-analysis/blob/main/customer%20satisfaction%20&%20root%20cause.png?raw=true)
+
+### 4. Feedback Sentiment Analysis
+**Objective:** Extract actionable insights from written customer feedback using text mining. 
+* **Insight:** Processed and analyzed the translated English review comments (`review_comment_message_eng`) from the Olist order reviews dataset.By applying sentiment analysis techniques in Power BI, text feedback was categorized into Positive, Neutral, and Negative sentiments. This qualitative analysis reveals the root causes of customer dissatisfaction (e.g., missing invoices, shipping delays) beyond simple star ratings, enabling targeted quality control. 
+
+![Customer Sentiment Dashboard](https://github.com/helin-c/olist-ecommerce-powerbi-analysis/blob/main/feedback%20sentiment%20analysis.png?raw=true)
 
 ## 🚀 Strategic Recommendations
-1. **Logistics Optimization:** Target regions with delivery times significantly above the 12.09-day average for localized warehousing or alternative carrier partnerships.
+1. **Logistics Optimization:** Target regions with delivery times significantly above the 12.09-day average for localized warehousing or alternative carrier partnerships. 
 2. **Quality Control:** Investigate the product categories generating the highest volume of negative sentiment to improve overall marketplace quality.
-3. **Inventory Planning:** Utilize the predictive sales forecast to help Olist's small business partners proactively manage their inventory ahead of projected demand surges.
+3. **Inventory Planning:** Utilize the predictive sales forecast to help Olist's small business partners proactively manage their inventory ahead of projected demand surges. 
 
 
